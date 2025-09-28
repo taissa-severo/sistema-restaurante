@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro de restaurante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1> Cadastro de restaurantes:</h1>
+
+
+    <form action="/cadastro_restaurante" method="POST">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="Nome">Nome</label>
+                <input type="text" class="form-control" id="Nome" name="nome" placeholder="Nome">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="End">Endereço</label>
+                <input type="text" class="form-control" id="End" name="end" placeholder="Senha">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Telefone">Telefone</label>
+            <input type="text" class="form-control" id="Telefone" name="telefone" placeholder="Telefone">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email" name="email" placeholder="Email">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="Descrição">Descrição</label>
+                <input type="text" class="form-control" name="des" id="Descrição" placeholder=" Descrição">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Site">Site</label>
+                <input type="text" class="form-control" name="site" id="Site" placeholder="Site">
+            </div>
+          
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+</body>
+
+</html>
